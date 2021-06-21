@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tarea 3 agenda</title>
+        <link rel= "stylesheet" href="Style.css"/>
+
+    </head>
+
+    <body onload ="buscarcontactos()">
+
+        <center><h2>Bienvenido a su agende web</h2></center>
+        <center><h3>Agrege contactos nuevos aqui:</h3></center>
+        <div class="form" id="form" method="post">
+            <label for="Nombre" class="nombre" id="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nommbre" placeholder="Ingrese un nombre" autocomplete="off">
+            <label for="Apellido" class="lastname">Apellido:</label>
+            <input type="text" name="apellido" id="apellido" placeholder="Ingrese un apellido" autocomplete="off">
+            <label for="Telefono" class="number">Telefono:</label>
+            <input type="number" name="telefono" id="telefono" placeholder="Ingrese un telefono" autocomplete="off">
+            <br>
+            <br>
+            <button class="btn_agregar" id="btn_agregar" type="submit">Agregar</button>
+            <button class="btn_actualizar" id="btn_actualizar" >Actualizar</button>
+            <center><h3>Estos son sus contactos:</h3></center>
+        </div>
+        <div id="partes">
+           
+           
+        </div>
+        
+    
+    </body>
+    <script type="text/javascript" src="index.js"></script>
+
+
+</html>
